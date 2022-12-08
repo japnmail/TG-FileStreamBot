@@ -38,7 +38,9 @@ async def start(b: Client, m: Message):
 <b>Down:</b> {recv}\n
 <b>CPU:</b> {cpuUsage}% 
 <b>RAM:</b> {memory}% 
-<b>Disk:</b> {disk}%"""
+<b>Disk:</b> {disk}%
+
+⚠️ Pᴏᴡᴇʀᴇᴅ ʙʏ MɪɴᴅfʟᴀʏᴇʀsMɪʀʀᴏʀ"""
 
     await m.reply_text(
         text=sys_stat,
